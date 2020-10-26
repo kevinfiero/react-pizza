@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+html{
+  font-family: 'Oswald', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+body{
+  display:flex;
   flex-direction: column;
+  justify-items: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: center;
+}
+
+button{
+  height: 40px;
+  width: 125px;
   color: white;
+  background-color: rgb(188, 112, 88);
+  margin: 20px 0px 0px 20px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+label{
+  width: 400px;
+  word-wrap: normal;
+  margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type='checkbox']:checked + label{
+  text-decoration: line-through;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h2{
+  color: grey;
+}
+
+h4{
+  font-size: .7em;
+}
+
+p{
+  width: 800px;
+  margin: 10px;
+  font-size: 1.2em;
+  text-indent: 25px;
+  color: grey;
+}
+
+fieldset{
+  border-top: 1px solid rgb(169,176,172);
+  width: 900px;
+  margin: 10px;
+  text-align: center;
+  padding: 8px;
+  color: rgb(169,176,172);
+  font-size: 12px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  box-shadow: 10px;
+  width: 900px;
+  margin-top: 10px;
+}
+
+.img-rep{
+  background-image: url("./assets/hr-img.png");
+  background-repeat: repeat;
+  width: 900px;
+  height:10px;
+  margin: 10px;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+#header-icons{
+  float: right;
+}
+
+#header-left{
+  display: flex;
+  flex-direction: row;
+}
+
+#body-top{
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0px 15px 0px;
+}
+
+#body-bottom{
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  color: grey;
+  width: 900px;
+}
+
+#bullet-area{
+  width: 850px;
+  height: 250px;
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: row;
+  background-image: url(./assets/list-bg.png);
+  justify-content: space-between;
+  margin: 30px 0px 30px 0px;
+  align-content: center;
+  align-items: center;
+  word-wrap: normal;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#header-img{
+  width: 50px;
+  height: 50px;
+  margin: 3px 10px 0px 0px;
+}
+
+#delicious{
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+}
+
+#choco-text{
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#print-icon{
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+
+#print-img{
+  width: 18px;
+  height: 13px;
+  align-self: flex-end;
+  margin: 0px 5px 3px 0px;
+}
+
+#print{
+  color: rgb(87, 85, 96);
+  font-size: small;
+  align-self: flex-end;
+}
+
+#left-list{
+  margin-left: 80px;
+}
+
+#right-list{
+  margin-right: 20px;
+}
+
+#name{
+  font-weight: 800;
+  margin: 35px 0px 10px 0px;
+  color: rgb(87, 85, 96)
+}
+
+#img-bottom{
+  justify-content: center;
+}
+
+#van-img{
+  margin: 30px;
+}
+
+#van-text{
+  margin-right: 100px;
 }
