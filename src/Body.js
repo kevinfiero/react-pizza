@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import print from './assets/print-icon.png';
 import choco from './assets/choco-pizza.png';
 import van from './assets/van-pic.png';
+import IngredientList from './IngredientList.js';
 
 export default class Body extends Component {
     render() {
@@ -30,24 +31,7 @@ export default class Body extends Component {
                     <p>
                         Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish, or glass tupperware. Freeze for at least two hours before serving.
                     </p>
-                    <div id='bullet-area'>
-                        <div id = 'left-list' class='flex-column'>
-                            <div className='flex-row'><input type="checkbox" /><label> 1 1/2 cups milk</label></div>
-                            <div className='flex-row'><input type="checkbox" /><label> 1/2 cup mascarpone</label></div>
-                            <div className='flex-row'><input type="checkbox" /><label> 1/2 tsp pink salt</label></div>
-                            <div className='flex-row'><input type="checkbox" /><label> 1 lb Black Mission Figs</label></div>
-                            <div className='flex-row'><input type="checkbox" /><label> 1/2 cup brown sugar</label></div>
-                            <div className='flex-row'><input type="checkbox" /><label> 2-4 tbsp water</label></div>
-                        </div>
-                        <div id = 'right-list' className='flex-column'>
-                            <div className='flex-row'><input type="checkbox" /><label> 1 1/2 cups heavy cream</label></div>
-                            <div className='flex-row'><input type="checkbox" /><label> 1/3 cup granulated sugar</label></div>
-                            <div className='flex-row'><input type="checkbox" /><label> 2 egg yolks</label></div>
-                            <div className='flex-row'><input type="checkbox" /><label> 1 lemon, juiced</label></div>
-                            <div className='flex-row'><input type="checkbox" /><label> 2 tbsp butter</label></div>
-                            <div className='flex-row'><input type="checkbox" /><label> 1 cup honey roasted pecans, roughly chopped</label></div>
-                        </div>
-                    </div>
+                    <IngredientList></IngredientList>
                 </div>
             </main>
                 <div className = 'img-rep'>
