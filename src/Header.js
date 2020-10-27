@@ -5,6 +5,7 @@ import ButtonList from './ButtonList.js';
 export default class Header extends Component {
     render() {
         return (
+            <>
             <header>
                 <div id='header-left'>
                     <img id='header-img' src={logo} alt=''/>
@@ -13,8 +14,10 @@ export default class Header extends Component {
                         <h4>THE BEST FOOD BLOG ON THE WEB.</h4>
                     </div>
                 </div>
-                <ButtonList></ButtonList>
+                <ButtonList />
             </header>
+            <div className = 'img-rep' />
+            </>
         )
     }
 }
