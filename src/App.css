@@ -41,6 +41,7 @@ h2{
 
 h4{
   font-size: .7em;
+  margin-top: 10px;
 }
 
 p{
@@ -59,6 +60,9 @@ fieldset{
   padding: 8px;
   color: rgb(169,176,172);
   font-size: 12px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
 }
 
 header{
@@ -138,6 +142,7 @@ header{
 #delicious{
   font-family: 'Pacifico', cursive;
   font-size: 22px;
+  margin: 0px;
 }
 
 #choco-text{
@@ -155,7 +160,7 @@ header{
   width: 18px;
   height: 13px;
   align-self: flex-end;
-  margin: 0px 5px 3px 0px;
+  margin: 0px 5px 11px 0px;
 }
 
 #print{
