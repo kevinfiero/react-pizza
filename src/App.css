@@ -79,7 +79,7 @@ header{
   background-repeat: repeat;
   width: 900px;
   height:10px;
-  margin: 10px;
+  margin: 10px 0px 10px 0px;
 }
 
 .flex-column{
@@ -154,6 +154,7 @@ header{
   float: right;
   display: flex;
   flex-direction: row;
+  margin-right: 30px;
 }
 
 #print-img{
