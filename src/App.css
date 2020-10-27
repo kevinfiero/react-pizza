@@ -83,6 +83,11 @@ header{
   flex-direction: column;
 }
 
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #header-icons{
   float: right;
 }
